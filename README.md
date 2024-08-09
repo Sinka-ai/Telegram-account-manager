@@ -13,21 +13,22 @@ A tool for managing Telegram accounts, including spam removal and account valida
    ```bash
    git clone https://github.com/yourusername/telegram-account-manager.git
    cd telegram-account-manager
-#Files description 
+   
+# Files description 
 
-accounts:
+**accounts**:
 This folder contains subdirectories for various Telegram accounts that are being managed by the tool. Each subdirectory is named after the phone number associated with the account or a unique identifier. Inside these subdirectories, you will find the tdata folder, which contains Telegram session data files.
 
-accounts2:
+**accounts2**:
 This folder is used for storing Telegram accounts that have been successfully processed or transferred. The folder structure is similar to the accounts folder, with each subdirectory containing a tdata folder for the session data.
 
-spam:
+**spam**:
 This folder contains Telegram accounts that have been identified as having spam issues. These accounts require further attention, such as attempting to remove spam blocks.
 
-снятие спама:
+**снятие спама**:
 This folder stores accounts that have had spam blocks successfully removed. It serves as an archive of accounts that have been processed for spam removal.
 
-не удалось:
+**не удалось**:
 This folder contains accounts that could not be processed successfully. These accounts might have encountered errors during validation or spam removal and need to be reviewed manually.
 
 невалидные_аккаунты:

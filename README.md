@@ -31,8 +31,8 @@ This folder stores accounts that have had spam blocks successfully removed. It s
 **не удалось**:
 This folder contains accounts that could not be processed successfully. These accounts might have encountered errors during validation or spam removal and need to be reviewed manually.
 
-невалидные_аккаунты:
+**невалидные_аккаунты**:
 This folder stores accounts that have been determined to be invalid or unusable. These accounts failed the validation checks and are archived here for record-keeping.
 
-не проверен:
+**не проверен**:
 This folder is a temporary storage area for accounts that have not yet been processed or validated. Accounts placed here are awaiting further action.
